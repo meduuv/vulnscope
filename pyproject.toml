@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "vulnscope"
+version = "0.1.0"
+description = "Defensive vulnerability record filtering and summaries"
+requires-python = ">=3.9"
+[tool.pytest.ini_options]
+pythonpath = ["src"]
